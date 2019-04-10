@@ -1,7 +1,11 @@
 
+
+
+
+
 html,body
 {
-    
+
     overflow-x: hidden;
 }
 
@@ -76,6 +80,7 @@ footer {
   min-width: 100%;
   transform: translate( -50%);
   border-bottom: 10px solid #006600;
+  display: block; 
 
 }
 
@@ -266,6 +271,26 @@ button:hover, a:hover {
     transform: translate( -85%);
     border-bottom: 10px solid #006600;
 
+  }
+
+  .wrap {
+    flex-direction: column-reverse;
+  }
+  .one,
+  .two {
+    width: auto;
+  }
+
+  .one,
+  .two {
+    min-width: 100%;
+    width: 100%;
+
+  }
+
+  .info {
+    padding-left: 1px;
+    padding-right: 1px;
   }
 
 
