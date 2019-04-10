@@ -111,6 +111,8 @@ p {
 
 
 
+
+
 .jumbotron {
   text-align: center;
 
@@ -238,4 +240,23 @@ button:hover, a:hover {
 .fa-youtube {
   background: #ff4d4d;
   color: white;
+}
+
+
+
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 300px) {
+  #myVideo {
+   position: relative;
+    right: 0;
+    bottom: 0;
+    left: 50%;
+    min-width: 100%;
+    transform: translate( -85%);
+    border-bottom: 10px solid #006600;
+
+  }
 }
