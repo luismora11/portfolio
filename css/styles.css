@@ -85,6 +85,8 @@ footer {
 }
 
 
+
+
 .overlay {
   background: rgba(0,0,0,0);
   position: absolute;
@@ -262,7 +264,7 @@ button:hover, a:hover {
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 800px) {
-  #myVideo {
+/*  #myVideo {
    position: relative;
     right: 0;
     bottom: 0;
@@ -271,6 +273,10 @@ button:hover, a:hover {
     transform: translate( -85%);
     border-bottom: 10px solid #006600;
 
+  }  */
+
+  #imageMobile {
+    background: url(images/matrixx.jpg);
   }
 
 
