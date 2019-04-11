@@ -302,3 +302,33 @@ button:hover, a:hover {
 
 
 }
+
+
+
+@media (min-aspect-ratio: 16/9){
+  #myVideo {
+    width: 100%;
+    height: auto;
+
+  }
+}
+
+@media (max-aspect-ratio: 16/9){
+  #myVideo {
+    width: auto;
+    height: 100%;
+
+  }
+}
+
+@media(max-width: 767px){
+  #myVideo{
+    display: none;
+  }
+  .what{
+    background: url('../images/matrix.jpg');
+    background-size: cover;
+
+
+  }
+}
