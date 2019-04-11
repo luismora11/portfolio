@@ -262,7 +262,7 @@ button:hover, a:hover {
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 800px) {
-  #myVideoMobile {
+  #myVideo {
    position: relative;
     right: 0;
     bottom: 0;
