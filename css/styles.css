@@ -280,7 +280,22 @@ button:hover, a:hover {
 
 @media (max-width: 900px) {
 
-  .wrap {
+/* VIDEO */
+
+.half-screen video {
+  display: none
+}
+
+.half-screen {
+  background: url('../images/giphy.webp');
+  background-size: cover;
+}
+
+.overlay {
+  padding-left: 18%;
+}
+
+.wrap {
     flex-direction: column-reverse;
   }
   .one,
