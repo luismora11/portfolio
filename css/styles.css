@@ -289,8 +289,7 @@ button:hover, a:hover {
 .half-screen {
   background: url('../images/2.jpg');
   background-size: cover;
-  background-attachment: fixed;
-  
+
 }
 
 .overlay {
