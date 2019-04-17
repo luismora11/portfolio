@@ -72,7 +72,7 @@ footer {
 
 
 /* Style the video: 100% width and height to cover the entire window */
-#myVideo {
+/*#myVideo {
  position: relative;
   right: 0;
   bottom: 0;
@@ -82,6 +82,21 @@ footer {
   border-bottom: 10px solid #006600;
   display: block;
 
+} */
+
+.half-screen {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.half-screen video {
+  position: absolute;
+  width: auto;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 
@@ -263,7 +278,7 @@ button:hover, a:hover {
 
 /* MEDIA QUERIES */
 
-
+@media (max-width: 900px) {
 
   .wrap {
     flex-direction: column-reverse;
