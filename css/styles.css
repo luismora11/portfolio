@@ -289,10 +289,12 @@ button:hover, a:hover {
 .half-screen {
   background: url('../images/2.jpg');
   background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 .overlay {
-  padding-left: 18%;
+  padding-left: 10%;
 }
 
 .wrap {
