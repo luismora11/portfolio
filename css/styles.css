@@ -1,6 +1,10 @@
 
 
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 
 html,body
@@ -30,8 +34,13 @@ margin-top: 100px;
 
 .information {
 
-  margin: 100px;
+  margin: 200px;
   text-align: center;
+}
+
+
+.mail{
+  margin-top: 20px
 }
 
 
@@ -81,21 +90,6 @@ margin-top: 100px;
 
 
 
-footer {
-  text-align: center;
-  margin-top: 50px;
-  display: inline-block;
-  margin-bottom: 50px;
-  background-color: #004d00;
-  padding: 100px;
-  color: white;
-
-
-}
-.fa {
-  margin-left: 20px;
-  background-color: white;
-}
 
 
 
@@ -157,6 +151,7 @@ p {
   font-size: 25px;
   font-weight: 400;
   margin-top: -70px;
+  margin-bottom: 70px;
 
 }
 
@@ -184,13 +179,15 @@ p {
 
 }
 
-#python {
+
+
+#jquery {
   height: 360px;
 
 }
 
 #database {
-  height: 310px;
+  height: 360px;
 }
 
 .lead {
@@ -256,18 +253,24 @@ button:hover, a:hover {
 
 
 
-.column{
-  float:left;
-  width: 33%;
+
+
+
+footer {
   text-align: center;
-}
+  margin-top: 50px;
+  display: inline-block;
+  margin-bottom: 50px;
+  background-color: #004d00;
+  padding: 100px;
+  color: white;
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
+}
+.fa {
+  margin-left: 20px;
+  background-color: white;
+}
 
 
 .fa {
@@ -278,6 +281,7 @@ button:hover, a:hover {
   text-decoration: none;
   border-radius: 50%;
   margin-top: 16px;
+  color: #fff;
 }
 
 /* Add a hover effect if you want */
