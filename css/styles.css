@@ -98,8 +98,35 @@ margin-top: 100px;
 
 
 
+.proj{
+  margin: 120px;
+  margin-bottom: 2em;
+  padding-bottom: 16em;
+}
 
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 30%;
+  height: 300px; 
+  margin-bottom: 2em;
+}
 
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 70%;
+  border-left: none;
+  height: 300px;
+  margin-bottom: 2em;
+}
+
+.tabImg{
+  width: 100%;
+  height: 300px;
+}
 
 
 
@@ -368,4 +395,37 @@ footer {
 
 .resize {
   height: 500px;
+}
+
+
+@media (max-width: 500px){
+
+  .proj{
+
+   margin: 0;
+   padding-top: 6em;
+   padding-bottom: 16em;
+  }
+
+  .tab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 30%;
+    height: 300px; 
+  }
+  
+  .tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 70%;
+    border-left: none;
+    height: 300px;
+  }
+  
+  .tabImg{
+    width: 100%;
+    height: 300px;
+  }
 }
