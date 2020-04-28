@@ -26,7 +26,6 @@ html,body
 
 
 
-
 .skills {
 margin-top: 100px;
 
@@ -98,35 +97,7 @@ margin-top: 100px;
 
 
 
-.proj{
-  margin: 120px;
-  margin-bottom: 2em;
-  padding-bottom: 16em;
-}
 
-.tab {
-  float: left;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
-  width: 30%;
-  height: 300px; 
-  margin-bottom: 2em;
-}
-
-.tabcontent {
-  float: left;
-  padding: 0px 12px;
-  border: 1px solid #ccc;
-  width: 70%;
-  border-left: none;
-  height: 300px;
-  margin-bottom: 2em;
-}
-
-.tabImg{
-  width: 100%;
-  height: 300px;
-}
 
 
 
@@ -179,7 +150,7 @@ margin-top: 100px;
 }
 
 p {
-  padding-top: 100px;
+  padding-top: 10px;
 
 }
 
@@ -240,14 +211,21 @@ p {
   padding-right: 150px;
   padding-left: 150px;
   line-height: 2.5;
+  margin-bottom: 3em;
 
+}
+
+.display-4{
+  margin-bottom: 2em;
 }
 
 .pa {
   margin-top: -90px;
 }
 
-
+.card{
+  margin-bottom: 50px;
+}
 
 
 
@@ -398,34 +376,3 @@ footer {
 }
 
 
-@media (max-width: 500px){
-
-  .proj{
-
-   margin: 0;
-   padding-top: 6em;
-   padding-bottom: 16em;
-  }
-
-  .tab {
-    float: left;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
-    width: 30%;
-    height: 300px; 
-  }
-  
-  .tabcontent {
-    float: left;
-    padding: 0px 12px;
-    border: 1px solid #ccc;
-    width: 70%;
-    border-left: none;
-    height: 300px;
-  }
-  
-  .tabImg{
-    width: 100%;
-    height: 300px;
-  }
-}
