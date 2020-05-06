@@ -270,6 +270,13 @@ button:hover, a:hover {
 
 
 
+
+
+
+
+
+
+
 footer {
   text-align: center;
   margin-top: 50px;
@@ -301,7 +308,7 @@ footer {
 /* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.7;
-}
+}  
 
 .fa-linkedin {
   background-color: #4d93bf;
