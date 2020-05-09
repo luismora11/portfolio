@@ -375,6 +375,13 @@ footer {
   }
 
 
+  .videoNotMine{
+    padding: 1px;
+    margin: 1px;
+    font-size: 10px;
+    display: none;
+  }
+
 }
 
 
@@ -385,5 +392,7 @@ footer {
 .resize {
   height: 500px;
 }
+
+
 
 
