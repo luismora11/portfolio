@@ -269,6 +269,12 @@ button:hover, a:hover {
   padding: 1px;
   margin: 1px;
   font-size: 10px;
+  color: white;
+  position: absolute;
+  bottom: 1px;
+  left: 1px;
+  z-index: 5;
+
 }
 
 
