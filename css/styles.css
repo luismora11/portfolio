@@ -426,3 +426,12 @@ footer {
 
 
 
+@media (max-width: 500px){
+.information{
+  padding-top: 25%;
+  margin: auto;
+  width: 50%;
+}
+
+
+}
