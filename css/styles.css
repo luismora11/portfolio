@@ -49,9 +49,17 @@ margin-top: 100px;
 
 /* NAVBAR */
 
- .navbar-brand {
-  padding-right: 25%;
-  padding-left: 50px;
+  nav .navbar-brand  {
+    margin-right: 25%;
+  padding: 2px;
+ 
+  font-size: 2rem;
+  font-weight: bolder;
+  letter-spacing: 3px;
+  text-transform: uppercase; 
+  border: 5px solid #8fffb8;
+  background-color: #16731f;
+  border-radius: 10px;;
 
 
 }
@@ -343,6 +351,22 @@ footer {
 /* MEDIA QUERIES */
 
 @media (max-width: 900px) {
+
+  nav .navbar-brand  {
+    margin-right: 25%;
+  padding: 2px;
+ 
+  font-size: 1rem;
+  font-weight: bolder;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  border: 5px solid #8fffb8;
+  background-color: #16731f;
+  border-radius: 10px;;
+
+
+}
+
 
 /* VIDEO */
 
