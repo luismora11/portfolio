@@ -194,6 +194,10 @@ p {
 
 }
 
+.hide {
+  display: none !important;
+}
+
 
 
 #jquery {
