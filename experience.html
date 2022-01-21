@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   <script src="js/app.js"></script>
+   <script src="./app.js" defer></script>
     <title>Luis Mora</title>
   </head>
   <body>
@@ -23,15 +23,14 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item ">
-        <a class="nav-link" href="index.html" style="color: #fff ;">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="index.html" style="color: #fff;">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="experience.html" style="color: #fff;">Experience</a>
-      </li>
+      </li> 
       <li class="nav-item">
         <a class="nav-link" href="projects.html" style="color: #fff;">Projects</a>
-      </li>
-      
+      </li> 
       <li class="nav-item">
         <a class="nav-link " href="about.html" tabindex="-1" aria-disabled="true" style="color: #fff;">About Me</a>
       </li>
@@ -44,62 +43,6 @@
 </nav>
 
 
-<div class="half-screen">
-
- <video  autoplay muted loop id="myVideo"  >
-  <source src="images/matrix.mp4" type="video/mp4">
-</video>
-
-
-
-<div class="overlay">
-  <h1 class="overText">Hey There! My Name is Luis, Welcome to My Portfolio</h1>
-</div>
-<p class="videoNotMine">This video belongs to thebiggysmith <a href="https://www.youtube.com/watch?v=i9k2OCJk81M">YouTube Channel</a></p>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div id="resume">
-  <img src="images/Luis.jpeg" alt="James Moriarty">
-  <h1>Luis Morales</h1>
-  <span>Consultant & Web Developer</span>
-  <p>SAP Basis Administrator with experience installing, updating, maintaining, supporting and troubleshooting SAP S/4 HANA systems and its databases. Exposure to Google Cloud Platform and Amazon Web Services. I also have experience developing web applications.</p>
-<dl>
-  <dt>Education
-  <dd>
-    <ul>
-    <li>Associate of Applied Science in Computer Information Technology, Delgado Community College.
-    <li>AWS Certified Solutions Architect - Associate Certification From Amazon Web Services
-    <li>SAP Certified Technology Associate - System Administration (SAP HANA) with SAP NetWeaver 7.5
-      certification from
-      SAP SE
-    </ul>
-</dl>
-
-<dl>
-<dt>Experience
-<dd>
-  <ul>
-<li><h2>Consultant at IBM<span>March 2021 – Present</span></h2>
-
-<li><h2>Intern at Greenup Industries<span>January 2020 – March 202</span></h2>
-</ul>
-</dd>
-</dl>
-
-</div>
 
 
 
@@ -143,11 +86,113 @@
 
 
 
-<div class="grid-container">
-  <div class="grid-item fill"><img src="images/www.jpg" class="iam"></div>
-  <div class="grid-item"><h1>Web Development Projects</h1><p> Experience developing web applications, the websites I created were made using a wide variety of technologies such as HTML, CSS, Bootstrap and React for the front- end and JavaScript, Node.js, Express and MongoDB for the back-end.
-  </p><div class="col text-center"><a class="btn btn btn-outline-info btn-lg" href="projects.html" role="button" >LEARN MORE</a></div></div>
+<!--
+
+
+<div class="container-fluid skills">
+<div class="card-deck">
+
+  <div class="card">
+    <img src="images/javascript.png" class="card-img-top " id="jquery" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">JavaScript</h5>
+      <p class="card-text">JavaScript is a programming language that adds interactivity to your website.</p>
+
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="images/react.svg" class="card-img-top " id="jquery" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">React</h5>
+      <p class="card-text">A JavaScript library that allows you to break big projects into smaller components with the end goal to simplify the development process.</p>
+
+    </div>
+  </div>
+  
+  <div class="card">
+    <img src="images/node.png" class="card-img-top"  id="database" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Node.js</h5>
+      <p class="card-text">Node.js is an open source server environment.</p>
+
+    </div>
+  </div>
+
+
+
 </div>
+</div>
+
+
+
+<div class="container skills">
+<div class="card-deck">
+  <div class="card">
+    <img src="images/html.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">HTML</h5>
+      <p class="card-text">HTML is the most basic building block of the web.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="images/css.png" class="card-img-top " id="jquery" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">CSS</h5>
+      <p class="card-text">CSS is a language that describes the style of an HTML document.</p>
+
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/bootstrap.png" class="card-img-top"  id="database" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">bootstrap</h5>
+      <p class="card-text">Bootstrap is an open-source framework for developing responsive, mobile-first websites.</p>
+
+    </div>
+  </div>
+
+</div>
+</div>
+
+
+
+<div class="container skills">
+  <div class="card-deck">
+    <div class="card">
+      <img src="images/git-icon.svg" class="card-img-top" id="jquery" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Git / Version Control</h5>
+        <p class="card-text">Git tracks the changes you make to files and saves different versions of your project. Git is an essential tool teams can use to collaborate on a project.</p>
+      </div>
+    </div>
+  
+    <div class="card">
+      <img src="images/googlee.png" class="card-img-top " id="jquery" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Google</h5>
+        <p class="card-text">You might think I'm crazy for considering googling stuff as a skill, but before you jump to conclusions let's face it, when you are creating a new application you will encounter countless errors and google always has the solution. Knowing how to search for a solution to a problem is a very important skill to have.</p>
+  
+      </div>
+    </div>
+    <div class="card">
+      <img src="images/jquery-icon.jpg" class="card-img-top " id="jquery" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">jQuery</h5>
+        <p class="card-text">jQuery is a fast, small, and feature-rich JavaScript library.</p>
+  
+      </div>
+    </div>
+  
+  </div>
+  </div>
+
+
+-->
+
+
+
 
 
 
@@ -167,21 +212,18 @@
 <footer>
   <h1>Contact Me</h1>
 
-<a href="https://www.linkedin.com/in/luis-morales--/" target="_blank" class="fa fa-linkedin"></a>
-<a href="https://github.com/luismora11" target="_blank" class="fa fa-github"></a>
-<a href="mailto:luis117mora@gmail.com" target="_blank" class="fa fa-envelope"></a>
-
+  <a href="https://www.linkedin.com/in/luis-morales--/" target="_blank" class="fa fa-linkedin"></a>
+  <a href="https://github.com/luismora11" target="_blank" class="fa fa-github"></a>
+  <a href="mailto:luis117mora@gmail.com" target="_blank" class="fa fa-envelope"></a>
 
 </footer>
 </div>
-
-
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
   </body>
 </html>
