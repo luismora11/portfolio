@@ -798,12 +798,13 @@ div#resume h2 span  {
   font-weight: normal
 }
 
-div#resume p {
+div#resume .intro {
   margin: 0 0 16px 0;
   overflow: hidden;
   font-size: 18px;
   background-color: #fff;
   border-radius: 10px;
+  margin-left: 10px;
 }
 
 div#resume a {
@@ -894,9 +895,31 @@ div#resume img {
   div#resume img {
     transform: rotate(0deg)
   }
+
+  div#resume .intro {
+    margin: 0 0 16px 0;
+    overflow: hidden;
+    font-size: 18px;
+    background-color: #fff;
+    border-radius: 10px;
+  }
 }
 
 @media screen and (max-width:400px) {
+
+
+  div#resume .intro {
+    margin: 0 0 16px 0;
+    overflow: hidden;
+    font-size: 18px;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+
+
+
+
+
   div#resume dl dt {
     border-right: none;
     border-bottom: 1px solid #999
