@@ -7,34 +7,232 @@
     <link rel="stylesheet" href="css/styles.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <title>Hello, world!</title>
+    <title>Luis Mora</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+    <!-- NAV -->
+    <nav class="navbar navbar-expand-lg  navbar-dark  fixed-top" style="background-color: #000000; ">
+  <!--<a class="navbar-brand" href="#"><img src="images/graduation.jpeg" id="navimg" alt="Graduation Photo"></a> -->
+  <a class="navbar-brand" href="index.html" style="color: #fff;">Portfolio</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      <li class="nav-item ">
+        <a class="nav-link" href="index.html" style="color: #fff;">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="skills.html">Skills</a>
+        <a class="nav-link" href="experience.html" style="color: #fff;">Experience</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link" href="projects.html" style="color: #fff;">Projects</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="projects.html">Projects</a>
+        <a class="nav-link " href="about.html" tabindex="-1" aria-disabled="true" style="color: #fff;">About Me</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link " href="about.html" tabindex="-1" aria-disabled="true">about me</a>
+        <a class="nav-link " href="contact.html" tabindex="-1" aria-disabled="true" style="color: #fff;">Contact Me</a>
       </li>
     </ul>
-    </div>
-    </nav>
 
-     <h1>projects</h1>
+  </div>
+</nav>
+
+
+ <!--
+<div class="container-fluid skills">
+  <div class="card-deck">
+
+    
+
+    <div class="card">
+      <img src="images/mern.png" class="card-img-top " id="jquery" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Find A Job</h5>
+        <p class="card-text">  <p>I have been applying for jobs but everybody is asking for 2 years of experience or more. I have the skills but I don’t have the experience, that’s why I decided to create a full stack website where companies can post jobs that require no experience. I am using Node.js and Express for the backend and React for the frontend.  Finally I’m using MongoDB for my database. <a href="https://noxperience-app.herokuapp.com/">Click Here to See the noXPrience Website</a></p>
+  
+      </div>
+    </div>
+
+
+    <div class="card">
+      <img src="images/company.jpeg" class="card-img-top"  id="database" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Why Should You Hire Me</h5>
+        <p class="card-text">    <p>I created this simple website to showcase my Node.js skills. I used Express.js to create routes and a web server, I used the ejs package to create a dynamic website and mongoDB for my database. Heroku was used to host this Node.js website. <a href="https://apple-interview.herokuapp.com/blogs">Visit Apple Interview Website</a></p>
+  
+      </div>
+    </div>
+  
+  
+  
+    <div class="card ">
+      <img src="images/nasaapi.png" class="card-img-top"  id="database" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Nasa API</h5>
+        <p class="card-text">    <p>This API shows the Astronomy Picture of the day. I used the fetch() method to fetch the title, date, image and description from the Nasa API portal.
+          I created an h1, p and img element using JavaScript to store the items that I retrieved from the Nasa API. I proceeded to append all of the elements to the parent element, It is a really important step because otherwise the element's content will not display.
+           If you are interested to see how I built this API make sure to visit my GitHub account where I have the repositories for this project and more. <a href="https://nasaapifetch.netlify.app/">Visit Nasa API Website</a></p>
+  
+      </div>
+    </div>
+  
+  
+  
+  </div>
+</div>
+  
+-->
+
+
+
+
+
+
+
+
+
+
+
+<div class="container-fluid skills">
+  <div class="card-deck">
+
+
+    <div class="card ">
+      <img src="images/nasaapi.png" class="card-img-top"  id="database" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Nasa API</h5>
+        <p class="card-text">    <p>This API shows the Astronomy Picture of the day. I used the fetch() method to fetch the title, date, image and description from the Nasa API portal.
+          I created an h1, p and img element using JavaScript to store the items that I retrieved from the Nasa API. I proceeded to append all of the elements to the parent element, It is a really important step because otherwise the element's content will not display.
+           If you are interested to see how I built this API make sure to visit my GitHub account where I have the repositories for this project and more. <a href="https://nasaapifetch.netlify.app/"> Visit Nasa API Website</a></p>
+  
+      </div>
+    </div>
+  
+    <div class="card">
+      <img src="images/map.png" class="card-img-top " id="jquery" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Heat Map API</h5>
+        <p class="card-text">  <p>This is a simple API that I created using mapbox. On the map you can see a heatmap layer over Los Angeles. This project was meant to teach me how to connect to any API.<a href="https://firstmapapi.netlify.app/"> Check out the Map API Website</a></p>
+  
+      </div>
+    </div>
+  
+  
+    
+
+    <div class="card">
+      <img src="images/todo.png" class="card-img-top"  id="database" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Typical Todo App</h5>
+        <p class="card-text">    <p>Anybody can create a Todo application nowdays. <a href="https://todoliist.netlify.app/"> Check The Todo App Website</a></p>
+  
+      </div>
+    </div>
+
+
+  
+  
+  
+  </div>
+</div>
+
+
+<div class="container-fluid skills">
+  <div class="card-deck">
+
+
+    <div class="card">
+      <img src="images/javascriptPro.png" class="card-img-top " id="jquery" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">JavaScript Small Project</h5>
+        <p class="card-text">  <p>The main goal for building this project was to use basic JavaScript concepts to show that I had a very good understanding
+          of arrays, methods, loops and funcitons. There is a list of random string games. The first challenge was to alphabetize the list, the second challenge was to capitalize the first letter of each word in the array. I used a nested for loop to solve that problem.
+          The final challenge consisted in making a random list item change color when you click a button, for this problem I used funcitons to achieve the desired outcome.<a href="https://javascriptsmallproject.netlify.app/"> Visit JavaScript Small Project Website</a></p>
+  
+      </div>
+    </div>
+  
+    <div class="card">
+      <img src="images/girlsboys.jpg" class="card-img-top " id="jquery" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Girls &amp; Boys Club </h5>
+        <p class="card-text">  <p>Creating the Girls and Boys Club website was easy. I just had to create a navigation bar with links to additional pages containing information about the organization. 
+        I went to Splash.com looking for images that could support the overall theme of the website. I have become an expert at styling images. My goal was to find a unique image for every page. I had to include the logo in the navigation mune too. It was easier than I expected. 
+        For this specific project I had to use html and css. I learned a lot of new css properties. The most important thing I learned was the box model and how it works. <a href="https://boysygirls.netlify.app/index.html">Visit Girls and Boys Club Website</a></p>
+  
+  
+      </div>
+    </div>
+  
+  
+  
+    <div class="card hide">
+      <img src="images/waterman.jpg" class="card-img-top"  id="database" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Waterman</h5>
+        <p class="card-text">    <p>I was hired to create a new website for the art and history museum in Green Valley, Arizona. I had to use Boostrap - a free css library - to make the page responsive, which means that when you resize the page the content will get bigger or smaller automatically adapting to the page's width. It is a technique you have to use all the time. 
+        I also created four separate pages containing information about the museum's art collection, calendar and how to help the museum. For this project I had to use all the skills I learned throughout the course. I hope I chose the right colors for this project. 
+         I had to create a responsive layout that adapts to the size of the display. I learned one of the most important aspects of building websites, Media Queries include a block of css properties only if certain condition is true. While I was creating these projects I found a really cool website, Unsplash.com. It's very useful if you want to find free images to use on your projects. <a href="https://watermanngallery.netlify.app/"> Visit WATERMANN Gallery Website</a></p>
+  
+      </div>
+    </div>
+
+
+    <div class="card hide">
+      <img src="images/todo.png" class="card-img-top"  id="database" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Typical Todo App</h5>
+        <p class="card-text">    <p>Anybody can create a Todo application nowdays. <a href="https://todoliist.netlify.app/"> Check The Todo App Website</a></p>
+  
+      </div>
+    </div>
+
+    
+  
+  
+  
+  </div>
+</div>
+
+  
+  
+  
+  
+  
+  
+ 
+  
+
+<div class="footeer">
+  <footer>
+    <h1>Contact Me</h1>
+  
+  <a href="https://www.linkedin.com/in/luis-morales--/" target="_blank" class="fa fa-linkedin"></a>
+  <a href="https://github.com/luismora11" target="_blank" class="fa fa-github"></a>
+  <a href="mailto:luis117mora@gmail.com" target="_blank" class="fa fa-envelope"></a>
+  
+  
+  </footer>
+  </div>
+  
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
