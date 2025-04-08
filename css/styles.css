@@ -367,12 +367,14 @@ ul {
 
 .image-left, .image-right
 {
-	margin: 1em 0;
+	margin: .5em 0;
 	max-width: 100%;
 	margin: auto;
 	max-width: 60em;
 	padding: 8em 1em;
 	font-family: Calibri, sans-serif;
+  font-size: 2rem;
+  margin-bottom: 0.5em;
 }
 
 
