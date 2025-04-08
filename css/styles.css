@@ -413,12 +413,13 @@ ul {
 footeer {
   text-align: center;
   margin-top: 20px;
-  display: inline-block;
   background-color: #000;
-  padding: 100px;
+  padding: 40px 0; /* Adjusted padding for better balance */
   color: white;
-
+  width: 100%; /* Ensures the footer takes up full width */
+  box-sizing: border-box; /* Prevents padding from affecting width */
 }
+
 .fa {
   margin-left: 20px;
   background-color: white;
@@ -433,6 +434,7 @@ footeer {
   border-radius: 25%;
   margin-top: 16px;
   color: #fff;
+  display: inline-block; /* Ensures icons are inline */
 }
 
 /* Add a hover effect if you want */
@@ -450,7 +452,6 @@ footeer {
 
 .fa-envelope {
   background-color: #c97955;
-
 }
 
 
