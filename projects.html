@@ -50,161 +50,317 @@
     </nav>
 
 
- <!--
-<div class="container-fluid skills">
-  <div class="card-deck">
-
+<!-- Projects Page Content -->
+<section class="projects-page">
+  <div class="container">
     
+    <!-- Technical Expertise Section -->
+    <div class="skills-section">
+      <h2 class="section-title">Technical Expertise</h2>
+      <div class="skills-grid">
+        
+        <!-- Kubernetes Card -->
+        <div class="skill-card">
+          <div class="skill-icon">
+            <img src="images/kubernetes.png" alt="Kubernetes Logo"/>
+          </div>
+          <div class="skill-content">
+            <h3>Kubernetes & Container Orchestration</h3>
+            <p>4+ years of experience deploying, managing, and troubleshooting highly available Kubernetes clusters, optimizing workloads and resources for production-grade environments in AWS EKS and on-premise setups.</p>
+            <div class="skill-highlights">
+              <span class="highlight">AWS EKS</span>
+              <span class="highlight">On-premise Setups</span>
+              <span class="highlight">Workload Optimization</span>
+              <span class="highlight">Production-grade</span>
+            </div>
+          </div>
+        </div>
 
-    <div class="card">
-      <img src="images/mern.png" class="card-img-top " id="jquery" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Find A Job</h5>
-        <p class="card-text">  <p>I have been applying for jobs but everybody is asking for 2 years of experience or more. I have the skills but I don’t have the experience, that’s why I decided to create a full stack website where companies can post jobs that require no experience. I am using Node.js and Express for the backend and React for the frontend.  Finally I’m using MongoDB for my database. <a href="https://noxperience-app.herokuapp.com/">Click Here to See the noXPrience Website</a></p>
-  
+        <!-- AWS Card -->
+        <div class="skill-card">
+          <div class="skill-icon">
+            <img src="images/AWS.png" alt="AWS Logo"/>
+          </div>
+          <div class="skill-content">
+            <h3>AWS Cloud Infrastructure</h3>
+            <p>Extensive experience architecting, provisioning and optimizing AWS services including EC2, Lambda, Cloudwatch, RDS, VPC, IAM, S3 and more to support scalable, secure and cost-efficient environments.</p>
+            <div class="skill-highlights">
+              <span class="highlight">EC2</span>
+              <span class="highlight">Lambda</span>
+              <span class="highlight">CloudWatch</span>
+              <span class="highlight">RDS</span>
+              <span class="highlight">VPC</span>
+              <span class="highlight">S3</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Python Card -->
+        <div class="skill-card">
+          <div class="skill-icon">
+            <img src="images/python.png" alt="Python Logo"/>
+          </div>
+          <div class="skill-content">
+            <h3>Python & Bash Scripting</h3>
+            <p>Proficiently leveraged Python and Bash in Linux scripting to streamline and automate daily tasks, enhancing operational efficiency and productivity.</p>
+            <div class="skill-highlights">
+              <span class="highlight">Python</span>
+              <span class="highlight">Bash</span>
+              <span class="highlight">Linux Scripting</span>
+              <span class="highlight">Operational Efficiency</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- CI/CD Card -->
+        <div class="skill-card">
+          <div class="skill-icon">
+            <img src="images/git-icon.svg" alt="CI/CD Logo"/>
+          </div>
+          <div class="skill-content">
+            <h3>CI/CD Pipelines</h3>
+            <p>Designed and maintained CI/CD pipelines in Jenkins, GitHub Actions to automate repetitive code builds, testing and deployments.</p>
+            <div class="skill-highlights">
+              <span class="highlight">Jenkins</span>
+              <span class="highlight">GitHub Actions</span>
+              <span class="highlight">Code Builds</span>
+              <span class="highlight">Testing & Deployment</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Monitoring Card -->
+        <div class="skill-card">
+          <div class="skill-icon">
+            <img src="images/observation-tool.png" alt="Monitoring Logo"/>
+          </div>
+          <div class="skill-content">
+            <h3>Monitoring & Observability</h3>
+            <p>Installed and configured monitoring tools such as Prometheus, Alertmanager, Grafana focusing on incident response, root cause analysis and data-drive decision making.</p>
+            <div class="skill-highlights">
+              <span class="highlight">Prometheus</span>
+              <span class="highlight">Alertmanager</span>
+              <span class="highlight">Grafana</span>
+              <span class="highlight">Root Cause Analysis</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Terraform Card -->
+        <div class="skill-card">
+          <div class="skill-icon">
+            <img src="images/terraform.png" alt="Terraform Logo"/>
+          </div>
+          <div class="skill-content">
+            <h3>Infrastructure as Code (Terraform)</h3>
+            <p>Hands-on experience creating modular, reusable Terraform configurations for provisioning and automating AWS resources, Pingdom checks, Grafana resources, PagerDuty services and the management of custom resources.</p>
+            <div class="skill-highlights">
+              <span class="highlight">Terraform</span>
+              <span class="highlight">AWS Resources</span>
+              <span class="highlight">PagerDuty</span>
+              <span class="highlight">Pingdom Checks</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ansible Card -->
+        <div class="skill-card">
+          <div class="skill-icon">
+            <img src="images/Ansible.png" alt="Ansible Logo"/>
+          </div>
+          <div class="skill-content">
+            <h3>Configuration Management (Ansible)</h3>
+            <p>Played a pivotal role in the successful integration of Ansible for configuration management ensuring consistent system reliability.</p>
+            <div class="skill-highlights">
+              <span class="highlight">Ansible</span>
+              <span class="highlight">Configuration Management</span>
+              <span class="highlight">System Reliability</span>
+              <span class="highlight">Integration</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Linux Card -->
+        <div class="skill-card">
+          <div class="skill-icon">
+            <img src="images/Linux.png" alt="Linux Logo"/>
+          </div>
+          <div class="skill-content">
+            <h3>Linux System Administration</h3>
+            <p>Experienced Linux System Administrator providing production support for applications on Red Hat Linux and Windows environments.</p>
+            <div class="skill-highlights">
+              <span class="highlight">Red Hat Linux</span>
+              <span class="highlight">SAP Applications</span>
+              <span class="highlight">System Configuration</span>
+              <span class="highlight">Troubleshooting</span>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
 
 
-    <div class="card">
-      <img src="images/company.jpeg" class="card-img-top"  id="database" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Why Should You Hire Me</h5>
-        <p class="card-text">    <p>I created this simple website to showcase my Node.js skills. I used Express.js to create routes and a web server, I used the ejs package to create a dynamic website and mongoDB for my database. Heroku was used to host this Node.js website. <a href="https://apple-interview.herokuapp.com/blogs">Visit Apple Interview Website</a></p>
-  
+
+
+
+
+
+
+
+
+
+    <!-- Fun Projects Section -->
+    <div class="projects-section">
+      <h2 class="section-title">Fun Projects</h2>
+      <div class="projects-grid">
+        
+        <!-- NASA API Project -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="images/nasaapi.png" alt="NASA API Project">
+            <div class="project-overlay">
+              <a href="https://nasaapifetch.netlify.app/" target="_blank" class="project-link">
+                <i class="fa fa-external-link"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>NASA API Explorer</h3>
+            <p>Interactive web application that displays NASA's Astronomy Picture of the Day using the fetch() API. Features dynamic content rendering with JavaScript DOM manipulation.</p>
+            <div class="project-tech">
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">API Integration</span>
+              <span class="tech-tag">DOM Manipulation</span>
+            </div>
+            <a href="https://nasaapifetch.netlify.app/" target="_blank" class="project-button">
+              View Project <i class="fa fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Heat Map API Project -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="images/map.png" alt="Heat Map API Project">
+            <div class="project-overlay">
+              <a href="https://firstmapapi.netlify.app/" target="_blank" class="project-link">
+                <i class="fa fa-external-link"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>Los Angeles Heat Map</h3>
+            <p>Interactive heatmap visualization built with Mapbox API, showcasing geographic data visualization techniques and real-time mapping capabilities.</p>
+            <div class="project-tech">
+              <span class="tech-tag">Mapbox API</span>
+              <span class="tech-tag">Data Visualization</span>
+              <span class="tech-tag">Geographic Mapping</span>
+            </div>
+            <a href="https://firstmapapi.netlify.app/" target="_blank" class="project-button">
+              View Project <i class="fa fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Todo App Project -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="images/todo.png" alt="Todo App Project">
+            <div class="project-overlay">
+              <a href="https://todoliist.netlify.app/" target="_blank" class="project-link">
+                <i class="fa fa-external-link"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>Modern Todo Application</h3>
+            <p>Clean, responsive task management application with CRUD functionality, local storage persistence, and modern UI design patterns.</p>
+            <div class="project-tech">
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">Local Storage</span>
+              <span class="tech-tag">CRUD Operations</span>
+            </div>
+            <a href="https://todoliist.netlify.app/" target="_blank" class="project-button">
+              View Project <i class="fa fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- JavaScript Small Project -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="images/javascriptPro.png" alt="JavaScript Small Project">
+            <div class="project-overlay">
+              <a href="https://javascriptsmallproject.netlify.app/" target="_blank" class="project-link">
+                <i class="fa fa-external-link"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>JavaScript Fundamentals Showcase</h3>
+            <p>Collection of interactive challenges demonstrating core JavaScript concepts including array manipulation, loops, functions, and DOM interaction.</p>
+            <div class="project-tech">
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">Arrays & Loops</span>
+              <span class="tech-tag">Functions</span>
+            </div>
+            <a href="https://javascriptsmallproject.netlify.app/" target="_blank" class="project-button">
+              View Project <i class="fa fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Girls & Boys Club -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="images/girlsboys.jpg" alt="Girls & Boys Club Website">
+            <div class="project-overlay">
+              <a href="https://boysygirls.netlify.app/index.html" target="_blank" class="project-link">
+                <i class="fa fa-external-link"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>Girls & Boys Club Website</h3>
+            <p>Multi-page organizational website featuring responsive design, custom navigation, and optimized imagery for community outreach and information sharing.</p>
+            <div class="project-tech">
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">CSS3</span>
+              <span class="tech-tag">Responsive Design</span>
+            </div>
+            <a href="https://boysygirls.netlify.app/index.html" target="_blank" class="project-button">
+              View Project <i class="fa fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Waterman Gallery -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="images/waterman.jpg" alt="Waterman Gallery Website">
+            <div class="project-overlay">
+              <a href="https://watermanngallery.netlify.app/" target="_blank" class="project-link">
+                <i class="fa fa-external-link"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>Waterman Art Gallery</h3>
+            <p>Professional museum website built with Bootstrap framework, featuring responsive galleries, event calendars, and comprehensive art collection showcases.</p>
+            <div class="project-tech">
+              <span class="tech-tag">Bootstrap</span>
+              <span class="tech-tag">Responsive Design</span>
+              <span class="tech-tag">Media Queries</span>
+            </div>
+            <a href="https://watermanngallery.netlify.app/" target="_blank" class="project-button">
+              View Project <i class="fa fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
       </div>
     </div>
-  
-  
-  
-    <div class="card ">
-      <img src="images/nasaapi.png" class="card-img-top"  id="database" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Nasa API</h5>
-        <p class="card-text">    <p>This API shows the Astronomy Picture of the day. I used the fetch() method to fetch the title, date, image and description from the Nasa API portal.
-          I created an h1, p and img element using JavaScript to store the items that I retrieved from the Nasa API. I proceeded to append all of the elements to the parent element, It is a really important step because otherwise the element's content will not display.
-           If you are interested to see how I built this API make sure to visit my GitHub account where I have the repositories for this project and more. <a href="https://nasaapifetch.netlify.app/">Visit Nasa API Website</a></p>
-  
-      </div>
-    </div>
-  
-  
-  
-  </div>
-</div>
-  
--->
-
-
-
-
-
-
-
-
-
-
-
-<div class="container-fluid skills">
-  <div class="card-deck">
-
-
-    <div class="card ">
-      <img src="images/nasaapi.png" class="card-img-top"  id="database" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Nasa API</h5>
-        <p class="card-text">    <p>This API shows the Astronomy Picture of the day. I used the fetch() method to fetch the title, date, image and description from the Nasa API portal.
-          I created an h1, p and img element using JavaScript to store the items that I retrieved from the Nasa API. I proceeded to append all of the elements to the parent element, It is a really important step because otherwise the element's content will not display.
-           If you are interested to see how I built this API make sure to visit my GitHub account where I have the repositories for this project and more. <a href="https://nasaapifetch.netlify.app/"> Visit Nasa API Website</a></p>
-  
-      </div>
-    </div>
-  
-    <div class="card">
-      <img src="images/map.png" class="card-img-top " id="jquery" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Heat Map API</h5>
-        <p class="card-text">  <p>This is a simple API that I created using mapbox. On the map you can see a heatmap layer over Los Angeles. This project was meant to teach me how to connect to any API.<a href="https://firstmapapi.netlify.app/"> Check out the Map API Website</a></p>
-  
-      </div>
-    </div>
-  
-  
-    
-
-    <div class="card">
-      <img src="images/todo.png" class="card-img-top"  id="database" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Typical Todo App</h5>
-        <p class="card-text">    <p>Anybody can create a Todo application nowdays. <a href="https://todoliist.netlify.app/"> Check The Todo App Website</a></p>
-  
-      </div>
-    </div>
-
-
-  
-  
-  
-  </div>
-</div>
-
-
-<div class="container-fluid skills">
-  <div class="card-deck">
-
-
-    <div class="card">
-      <img src="images/javascriptPro.png" class="card-img-top " id="jquery" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">JavaScript Small Project</h5>
-        <p class="card-text">  <p>The main goal for building this project was to use basic JavaScript concepts to show that I had a very good understanding
-          of arrays, methods, loops and funcitons. There is a list of random string games. The first challenge was to alphabetize the list, the second challenge was to capitalize the first letter of each word in the array. I used a nested for loop to solve that problem.
-          The final challenge consisted in making a random list item change color when you click a button, for this problem I used funcitons to achieve the desired outcome.<a href="https://javascriptsmallproject.netlify.app/"> Visit JavaScript Small Project Website</a></p>
-  
-      </div>
-    </div>
-  
-    <div class="card">
-      <img src="images/girlsboys.jpg" class="card-img-top " id="jquery" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Girls &amp; Boys Club </h5>
-        <p class="card-text">  <p>Creating the Girls and Boys Club website was easy. I just had to create a navigation bar with links to additional pages containing information about the organization. 
-        I went to Splash.com looking for images that could support the overall theme of the website. I have become an expert at styling images. My goal was to find a unique image for every page. I had to include the logo in the navigation mune too. It was easier than I expected. 
-        For this specific project I had to use html and css. I learned a lot of new css properties. The most important thing I learned was the box model and how it works. <a href="https://boysygirls.netlify.app/index.html">Visit Girls and Boys Club Website</a></p>
-  
-  
-      </div>
-    </div>
-  
-  
-  
-    <div class="card hide">
-      <img src="images/waterman.jpg" class="card-img-top"  id="database" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Waterman</h5>
-        <p class="card-text">    <p>I was hired to create a new website for the art and history museum in Green Valley, Arizona. I had to use Boostrap - a free css library - to make the page responsive, which means that when you resize the page the content will get bigger or smaller automatically adapting to the page's width. It is a technique you have to use all the time. 
-        I also created four separate pages containing information about the museum's art collection, calendar and how to help the museum. For this project I had to use all the skills I learned throughout the course. I hope I chose the right colors for this project. 
-         I had to create a responsive layout that adapts to the size of the display. I learned one of the most important aspects of building websites, Media Queries include a block of css properties only if certain condition is true. While I was creating these projects I found a really cool website, Unsplash.com. It's very useful if you want to find free images to use on your projects. <a href="https://watermanngallery.netlify.app/"> Visit WATERMANN Gallery Website</a></p>
-  
-      </div>
-    </div>
-
-
-    <div class="card hide">
-      <img src="images/todo.png" class="card-img-top"  id="database" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Typical Todo App</h5>
-        <p class="card-text">    <p>Anybody can create a Todo application nowdays. <a href="https://todoliist.netlify.app/"> Check The Todo App Website</a></p>
-  
-      </div>
-    </div>
-
-    
-  
-  
-  
-  </div>
-</div>
 
   
   
