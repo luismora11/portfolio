@@ -1,62 +1,71 @@
 
+/* ==========================================
+   GLOBAL STYLES & RESET
+   ========================================== */
 
+/* CSS Reset - Remove default margins, padding, and set consistent box-sizing */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
+/* Prevent horizontal scroll on all pages */
 html,body
 {
-
     overflow-x: hidden;
 }
 
+/* ==========================================
+   LEGACY STYLES (Legacy project elements)
+   ========================================== */
+
+/* Legacy project title styling */
 .projectTitle{
   text-transform: uppercase;
   margin-top: 2rem;
   font-weight: 700;
 }
 
-
- a {
+/* Default link color */
+a {
   color: #fff;
 }
 
-
-
-
+/* Legacy information section */
 .information {
-
   margin: 200px;
   text-align: center;
 }
 
-
+/* Legacy phone styling */
 .phone{
   margin-top: 20px
 }
 
-
+/* Default container background */
 .container {
   background-color: #F7F8F9;
- 
 }
 
-/* Modern Navigation */
+/* ==========================================
+   MODERN NAVIGATION
+   ========================================== */
+
+/* Main navigation container - fixed to top of page */
 .modern-navbar {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 1000;
-  background: rgba(0, 0, 0, 0.8);
-  backdrop-filter: blur(20px);
+  background: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+  backdrop-filter: blur(20px); /* Glass morphism effect */
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   transition: all 0.3s ease;
 }
 
+/* Navigation container - centers content and controls layout */
 .nav-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -67,6 +76,7 @@ html,body
   height: 80px;
 }
 
+/* Brand/logo section in navigation */
 .nav-brand {
   text-decoration: none;
   display: flex;
@@ -74,6 +84,7 @@ html,body
   align-items: flex-start;
 }
 
+/* Main brand text (name) */
 .brand-text {
   font-size: 1.5rem;
   font-weight: 700;
@@ -81,6 +92,7 @@ html,body
   line-height: 1;
 }
 
+/* Brand subtitle (role/title) */
 .brand-subtitle {
   font-size: 0.8rem;
   color: #667eea;
@@ -88,6 +100,7 @@ html,body
   margin-top: 2px;
 }
 
+/* Navigation links container */
 .nav-links {
   display: flex;
   list-style: none;
@@ -96,6 +109,7 @@ html,body
   gap: 40px;
 }
 
+/* Individual navigation links */
 .nav-link {
   text-decoration: none;
   color: #fff;
@@ -106,12 +120,14 @@ html,body
   padding: 10px 0;
 }
 
+/* Navigation link hover and active states */
 .nav-link:hover,
 .nav-link.active {
   color: #667eea;
   text-decoration: none;
 }
 
+/* Animated underline effect for nav links */
 .nav-link::after {
   content: '';
   position: absolute;
@@ -123,11 +139,13 @@ html,body
   transition: width 0.3s ease;
 }
 
+/* Show underline on hover and active states */
 .nav-link:hover::after,
 .nav-link.active::after {
   width: 100%;
 }
 
+/* Mobile hamburger menu button */
 .nav-toggle {
   display: none;
   flex-direction: column;
@@ -137,6 +155,7 @@ html,body
   padding: 5px;
 }
 
+/* Hamburger menu lines */
 .hamburger-line {
   width: 25px;
   height: 3px;
@@ -147,37 +166,33 @@ html,body
 }
 
 
+/* ==========================================
+   LEGACY IMAGE STYLES
+   ========================================== */
 
-
-
+/* Navigation image styling */
 #navimg {
   width: 50px;
   height: 50px;
   border-radius: 50%;
 }
 
+/* General photo styling */
 .otherPhoto {
   width: 100%;
   height: 100%;
 }
 
-
-
+/* Resume image styling */
 .resumeimg {
   max-width: 100%;
   height: auto;
-  
-
 }
 
-
-
-
-
-
-
-
-/* Modern Hero Section */
+/* ==========================================
+   HERO SECTION
+   ========================================== */
+/* Main hero container - full viewport height */
 .hero-section {
   position: relative;
   height: 100vh;
@@ -188,6 +203,7 @@ html,body
   justify-content: center;
 }
 
+/* Background video - Matrix effect */
 .hero-video {
   position: absolute;
   top: 50%;
@@ -200,6 +216,7 @@ html,body
   z-index: -1;
 }
 
+/* Dark overlay on top of video for text readability */
 .hero-overlay {
   position: absolute;
   top: 0;
@@ -213,6 +230,7 @@ html,body
   z-index: 1;
 }
 
+/* Main hero text content container */
 .hero-content {
   text-align: center;
   color: white;
@@ -220,6 +238,7 @@ html,body
   padding: 0 20px;
 }
 
+/* Container for hero title elements */
 .hero-title {
   display: flex;
   flex-direction: column;
@@ -227,6 +246,7 @@ html,body
   margin-bottom: 30px;
 }
 
+/* Hero greeting text with animation */
 .hero-greeting {
   font-size: 1.5rem;
   font-weight: 300;
@@ -234,6 +254,7 @@ html,body
   animation: fadeInUp 1s ease 0.5s both;
 }
 
+/* Main name display with large font and text shadow */
 .hero-name {
   font-size: 4rem;
   font-weight: 700;
@@ -243,6 +264,7 @@ html,body
   animation: fadeInUp 1s ease 1s both;
 }
 
+/* Role/title text with brand color */
 .hero-role {
   font-size: 2rem;
   font-weight: 400;
@@ -250,6 +272,7 @@ html,body
   animation: fadeInUp 1s ease 1.5s both;
 }
 
+/* Hero description text */
 .hero-description {
   font-size: 1.2rem;
   line-height: 1.6;
@@ -258,6 +281,7 @@ html,body
   animation: fadeInUp 1s ease 2s both;
 }
 
+/* Call-to-action buttons container */
 .hero-cta {
   display: flex;
   gap: 20px;
@@ -266,6 +290,7 @@ html,body
   animation: fadeInUp 1s ease 2.5s both;
 }
 
+/* Base styling for call-to-action buttons */
 .cta-button {
   padding: 15px 30px;
   border-radius: 50px;
@@ -570,7 +595,9 @@ ul {
 
 
 
-/* Modern About Me Section */
+/* ==========================================
+   ABOUT SECTION
+   ========================================== */
 .about-section {
   padding: 80px 0;
   background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
@@ -780,7 +807,9 @@ ul {
   margin: 0;
 }
 
-/* Skills Section */
+/* ==========================================
+   SKILLS/TECHNICAL EXPERTISE SECTION
+   ========================================== */
 .skills-section {
   padding: 80px 0;
   background: white;
@@ -857,7 +886,9 @@ ul {
   font-weight: 500;
 }
 
-/* Mobile Responsiveness */
+/* ==========================================
+   MOBILE RESPONSIVENESS
+   ========================================== */
 @media (max-width: 768px) {
   .about-header {
     flex-direction: column;
@@ -961,7 +992,9 @@ ul {
   padding: 0 20px;
 }
 
-/* Contact Page Styling */
+/* ==========================================
+   CONTACT PAGE
+   ========================================== */
 .contact-page {
   padding: 120px 0 80px 0;
   background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
@@ -1184,10 +1217,13 @@ ul {
   }
 }
 
-/*  FOOTER */
+/* ==========================================
+   FOOTER SECTION
+   ========================================== */
 
 
 
+/* Main footer container with dark background */
 .footeer {
   text-align: center;
   margin-top: 20px;
@@ -1212,6 +1248,7 @@ ul {
   background-color: white;
 }
 
+/* Social media icon styling */
 .fa {
   padding: 15px;
   font-size: 30px;
@@ -1824,7 +1861,10 @@ div#resume img {
   }
 }
 
-/* Projects Page Styling */
+/* ==========================================
+   PROJECTS PAGE
+   ========================================== */
+/* Main projects page container with gradient background */
 .projects-page {
   padding: 6rem 0 4rem;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -1842,6 +1882,7 @@ div#resume img {
   margin-top: 3rem;
 }
 
+/* Individual project card with modern styling */
 .project-card {
   background: rgba(255, 255, 255, 0.95);
   border-radius: 20px;
