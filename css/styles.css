@@ -201,10 +201,6 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* Fallback background in case video doesn't load */
-  background: linear-gradient(45deg, #000000, #003300, #001100, #000000);
-  background-size: 400% 400%;
-  animation: matrixGradient 8s ease infinite;
 }
 
 /* Background video - Matrix effect */
@@ -341,19 +337,6 @@ a {
   to {
     opacity: 1;
     transform: translateY(0);
-  }
-}
-
-/* Matrix-style animated gradient fallback */
-@keyframes matrixGradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
   }
 }
 
@@ -1458,19 +1441,9 @@ ul {
     width: 200px;
   }
   
-  /* Optimize video background for mobile */
-  .hero-video {
-    min-width: 100vw;
-    min-height: 100vh;
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    transform: translate(-50%, -50%);
-  }
-  
-  /* Enhance overlay for better text visibility on mobile */
+  /* Make Matrix video more visible on mobile by reducing overlay opacity */
   .hero-overlay {
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.2);
   }
 }
 
@@ -1491,20 +1464,6 @@ ul {
   .cta-button {
     padding: 12px 25px;
     font-size: 0.9rem;
-  }
-  
-  /* Enhanced video background for smallest mobile screens */
-  .hero-video {
-    min-width: 110vw;
-    min-height: 110vh;
-    width: 110vw;
-    height: 110vh;
-    object-fit: cover;
-  }
-  
-  /* Stronger overlay for better text contrast on small screens */
-  .hero-overlay {
-    background: rgba(0, 0, 0, 0.65);
   }
 }
 
