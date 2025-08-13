@@ -1440,11 +1440,6 @@ ul {
   .cta-button {
     width: 200px;
   }
-  
-  /* Make Matrix video more visible on mobile by reducing overlay opacity */
-  .hero-overlay {
-    background: rgba(0, 0, 0, 0.2);
-  }
 }
 
 @media (max-width: 480px) {
@@ -1464,6 +1459,16 @@ ul {
   .cta-button {
     padding: 12px 25px;
     font-size: 0.9rem;
+  }
+  
+  /* Enhance Matrix video visibility on mobile phones only */
+  .hero-video {
+    filter: brightness(1.4) contrast(1.2) saturate(1.1);
+  }
+  
+  /* Slightly reduce overlay on very small mobile screens */
+  .hero-overlay {
+    background: rgba(0, 0, 0, 0.3);
   }
 }
 
