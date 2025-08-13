@@ -1364,6 +1364,7 @@ ul {
     font-size: 1.2rem;
     text-align: center;
     padding: 15px 0;
+    color: #2c3e50 !important; /* Dark text for white mobile background */
   }
   
   .brand-text {
