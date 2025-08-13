@@ -997,7 +997,7 @@ ul {
 
 .contact-content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1.2fr 0.8fr;
   gap: 60px;
   align-items: start;
 }
@@ -1492,9 +1492,6 @@ div .card-deck{
    width: 100%;
    height: auto;
   
-}
-
-
 }
 
 
