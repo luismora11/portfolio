@@ -424,6 +424,11 @@ ul {
   justify-content: center;
 }
 
+.footeer footer {
+  text-align: center;
+  width: 100%;
+}
+
 .fa {
   margin-left: 20px;
   background-color: white;
